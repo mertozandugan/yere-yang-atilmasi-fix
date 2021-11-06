@@ -10,7 +10,7 @@ bool CHARACTER::DropGold(int gold)
 >Değiştir
 
 ```
-bool CHARACTER::DropGold(int gold) // @fixmeka040
+bool CHARACTER::DropGold(int gold)
 {
 	return false;
 }
@@ -25,7 +25,7 @@ bool CHARACTER::DropGold(int gold) // @fixmeka040
 >Değiştir
 
 ```
-			# if curMoney <= 0: # @fixmeka040
+			# if curMoney <= 0:
 			if curMoney >= 0:
 				return
 ```
