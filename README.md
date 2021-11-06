@@ -26,6 +26,6 @@ bool CHARACTER::DropGold(int gold) // @fixmeka040
 
 ```
 			# if curMoney <= 0: # @fixmeka040
-			if curMoney:
+			if curMoney >= 0:
 				return
 ```
